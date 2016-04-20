@@ -25,7 +25,7 @@ namespace 四則運算_後綴表示法
 
             }
         }
-        //如果要新增Express,在下面的字串加字,並在compute方法內新增該Express的運算程式碼.
+        //如果要新增Expression,在下面的字串加字,並在compute方法內新增該Expression的運算程式碼.
         const string HighExper = "*/%";
         const string LowExper = "+-";
         

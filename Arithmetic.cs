@@ -30,6 +30,7 @@ namespace 四則運算_後綴表示法
         const string LowExper = "+-";
         
         /*
+         * 在這裡運算並取得後綴表示法的字串
          * 處理程序::
          * 
          * 1.if 數字
@@ -73,6 +74,7 @@ namespace 四則運算_後綴表示法
             return sb.ToString();
         }
         /*
+         * 在這裡運算後綴表示法的字串的內容
          * 處理程序::
          * 
          * 1.foreach expression

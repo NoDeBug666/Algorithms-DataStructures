@@ -5,7 +5,7 @@ A * B mod C 破算法
 實作方法：
 利用連加取餘數的循環規則,配合上遞迴,
 一次操作可以等於乘上多次,由於本方法有利用遞迴,
-需要注意,可能導致Stack Overflow.
+需要注意,bo極大時可能導致Stack Overflow.
 使用方法：
 Result = res(A,ref B);
 */

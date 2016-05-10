@@ -38,6 +38,19 @@ namespace 圖論_Prim_最小生成樹
             Console.Read();
         }
 
+        /*
+        算法中文敘述:
+        首先有兩個陣列,儲存著目前哪一個Vertex和該Index的Vertex最接近
+        一個陣列儲存接近距離,一個儲存該Vertex座標
+        
+        初始化時把陣列皆設定為Vertex 0 的資料
+        且標記Vertex 0已經納入最小生成樹(lowcost = -1)
+        
+        for循環每一個Vertex,每次循環將會把該Vertex納入最小生成數
+            循環內再循環每一個點，找到哪些點可通行(或還沒被使用)而且lowcost最低.
+        如果找到,則標記此點 lowcost = -1.
+        接下來要更新lowcost陣列,如果目前循環節點比之前的記錄更近,則重設定該點的資料為目前點(更快的選擇路線)
+        */
         static void Prim_Algorithm(Martix g)
         {
             //宣告
